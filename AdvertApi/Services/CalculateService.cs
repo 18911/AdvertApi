@@ -20,7 +20,7 @@ namespace projekt_test.Services{
                 var r2 = CalculateArea(tmp2);
                 var result = r1 + r2;
 
-                if (result > BestArea) {
+                if (result < BestArea) {
                     BestArea = result;
                     ListBest[0] = tmp1;
                     ListBest[1] = tmp2;
